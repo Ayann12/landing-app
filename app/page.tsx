@@ -1,10 +1,12 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <>
       <h1>testing</h1>
-      <a href="/posts">Posting Page</a>
+      <Link href="/posts">Posting Page</Link>
       <br />
-      <a href="/albums">Albums Page</a>
+      <Link href="/albums">Albums Page</Link>
     </>
   );
 }
